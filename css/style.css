@@ -1,0 +1,56 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-light {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 1.6rem;    
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 2rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #439fe6;
+}
+
+/* SLIDER */
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center / cover;
+}
+
+.carousel-caption {
+    bottom: 35%;
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.9;
+}
